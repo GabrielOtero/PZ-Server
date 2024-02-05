@@ -614,4 +614,57 @@ SandboxVars = {
         -- How close members of a group stay to the group's leader. Minimum=1 Maximum=10 Default=3
         RallyGroupRadius = 3,
     },
+    FWOFitness = {
+        InitialPerkBonus = true,
+        currentExerciseRegularityBonus = true,
+        -- Minimum=0 Maximum=100 Default=25
+        currentExerciseOffset = 25,
+        -- Minimum=0,01 Maximum=100,00 Default=5,00
+        currentExerciseRate = 5.0,
+        -- Minimum=0,00 Maximum=100,00 Default=6,00
+        AverageExerciseRegularityBonus = 6.0,
+        -- Minimum=0,00 Maximum=100,00 Default=0,30
+        LevelBonus = 0.3,
+        SpaceOutExercise = true,
+        -- Minimum=0,00 Maximum=100,00 Default=0,90
+        SpaceOutExerciseNegative = 0.9,
+        RestedBonus = true,
+        -- Minimum=0,00 Maximum=10,00 Default=0,90
+        RestedBonusNegative = 0.9,
+        -- Minimum=0,01 Maximum=10,00 Default=1,00
+        XPMultiplier = 1.0,
+        -- Minimum=0,00 Maximum=10,00 Default=1,00
+        PassiveMultiplier = 1.0,
+        -- Minimum=0,00 Maximum=10,00 Default=1,00
+        BoredomMultiplier = 1.0,
+        -- Minimum=0,00 Maximum=10,00 Default=1,00
+        UnhappynessMultiplier = 1.0,
+        DropBags = false,
+        KeepBagsOn = false,
+    },
+    FWOWorkingTreadmill = {
+        -- Minimum=0,00 Maximum=100,00 Default=1,00
+        StrengthXPMultiply = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Default=1,00
+        SprintingXPMultiply = 1.0,
+        TreadmillDropBags = false,
+        BenchpressDropBags = false,
+        BenchTreadKeepBagsOn = false,
+    },
+    BicPen = {
+        EnableEasterEgg = true,
+    },
+    CF8KSweeper = {
+        AllowTiles = true,
+        SpriteWhitelist = "brokenglass_1_;trash_01_;d_trash_;street_decoration_01_26;street_decoration_01_27;damaged_objects_01_26;damaged_objects_01_27;damaged_objects_01_18;damaged_objects_01_19;damaged_objects_01_20;damaged_objects_01_21",
+        AllowBlood = true,
+        AllowGrime = true,
+        AllowAshes = true,
+        AllowItems = true,
+        AllowCorpses = true,
+    },
+    DAMN = {
+        AllowPowerChadSpawns = true,
+        AllowBushmasterSpawns = true,
+    },
 }
