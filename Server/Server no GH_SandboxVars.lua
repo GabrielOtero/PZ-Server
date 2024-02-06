@@ -614,6 +614,14 @@ SandboxVars = {
         -- How close members of a group stay to the group's leader. Minimum=1 Maximum=10 Default=3
         RallyGroupRadius = 3,
     },
+    CommonSense = {
+        PryingMechanic = true,
+        PryAllDoors = false,
+        PartsHighlighter = true,
+        ColorFilter = false,
+        -- Minimum=0,00 Maximum=5,00 Default=1,00
+        PryingChanceMultiplier = 1.0,
+    },
     FWOFitness = {
         InitialPerkBonus = true,
         currentExerciseRegularityBonus = true,
