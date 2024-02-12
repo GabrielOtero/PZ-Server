@@ -725,10 +725,20 @@ SandboxVars = {
         jukeboxPanicRecovery = 0.0,
         -- Minimum=0,00 Maximum=100,00 Default=0,00
         jukeboxFatigueRecovery = 0.0,
+        enableJukeboxNutrition = false,
+        enableStaticPlayerHealth = false,
         -- Minimum=0,00 Maximum=100,00 Default=0,00
         jukeboxHungerRecovery = 0.0,
         -- Minimum=0,00 Maximum=100,00 Default=0,00
         jukeboxThirstRecovery = 0.0,
+        -- Minimum=0,00 Maximum=1100,00 Default=0,00
+        jukeboxCalorieRecovery = 0.0,
+        -- Minimum=0,00 Maximum=110,00 Default=0,00
+        jukeboxCarbohydrateRecovery = 0.0,
+        -- Minimum=0,00 Maximum=110,00 Default=0,00
+        jukeboxProteinRecovery = 0.0,
+        -- Minimum=0,00 Maximum=110,00 Default=0,00
+        jukeboxLipidRecovery = 0.0,
     },
     VehicleRepairOverhaul = {
         DisableVehicleSalvage = false,
