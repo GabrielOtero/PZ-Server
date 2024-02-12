@@ -614,6 +614,18 @@ SandboxVars = {
         -- How close members of a group stay to the group's leader. Minimum=1 Maximum=10 Default=3
         RallyGroupRadius = 3,
     },
+    UndeadSurvivor = {
+        -- Minimum=0,00 Maximum=100,00 Default=0,04
+        StalkerChance = 0.04,
+        -- Minimum=0,00 Maximum=100,00 Default=0,04
+        NomadChance = 0.04,
+        -- Minimum=0,00 Maximum=100,00 Default=0,04
+        PrepperChance = 0.04,
+        -- Minimum=0,00 Maximum=100,00 Default=0,04
+        HeadhunterChance = 0.04,
+        -- Minimum=0,00 Maximum=100,00 Default=0,08
+        AmazonaChance = 0.08,
+    },
     CommonSense = {
         PryingMechanic = true,
         PryAllDoors = false,
@@ -674,5 +686,60 @@ SandboxVars = {
     DAMN = {
         AllowPowerChadSpawns = true,
         AllowBushmasterSpawns = true,
+    },
+    TOC = {
+        -- Minimum=1 Maximum=10 Default=1
+        CicatrizationSpeedMultiplier = 1,
+    },
+    TrueMusicJukebox = {
+        jukeboxesAttractZombies = true,
+        ignoreDistanceWhenPlaying = true,
+        forceThreeDimensionalAudio = false,
+        allowPortableJukeboxKeys = false,
+        disablePowerRequirement = false,
+        partyPooper = false,
+        -- Minimum=0 Maximum=110 Default=11
+        heroStarterTracks = 11,
+        -- Minimum=1 Maximum=110000 Default=50
+        maxRange = 50,
+        -- Minimum=1 Maximum=110000 Default=50
+        maxZombieRange = 50,
+        -- Minimum=0,00 Maximum=10,00 Default=1,00
+        jukeboxLiteratureFrequencyMultiplier = 1.0,
+        -- Minimum=0,00 Maximum=10,00 Default=1,00
+        starterKitFrequencyMultiplier = 1.0,
+        enableJukeboxTherapy = false,
+        -- Minimum=0,00 Maximum=100,00 Default=1,00
+        jukeboxTrueDancingMultiplier = 1.0,
+        -- Minimum=0,00 Maximum=100,00 Default=0,00
+        jukeboxHappinessRecovery = 0.0,
+        -- Minimum=0,00 Maximum=100,00 Default=0,00
+        jukeboxBoredomRecovery = 0.0,
+        -- Minimum=0,00 Maximum=100,00 Default=0,00
+        jukeboxStressRecovery = 0.0,
+        -- Minimum=0,00 Maximum=100,00 Default=0,00
+        jukeboxAngerRecovery = 0.0,
+        -- Minimum=0,00 Maximum=100,00 Default=0,00
+        jukeboxFearRecovery = 0.0,
+        -- Minimum=0,00 Maximum=100,00 Default=0,00
+        jukeboxPanicRecovery = 0.0,
+        -- Minimum=0,00 Maximum=100,00 Default=0,00
+        jukeboxFatigueRecovery = 0.0,
+        -- Minimum=0,00 Maximum=100,00 Default=0,00
+        jukeboxHungerRecovery = 0.0,
+        -- Minimum=0,00 Maximum=100,00 Default=0,00
+        jukeboxThirstRecovery = 0.0,
+    },
+    VehicleRepairOverhaul = {
+        DisableVehicleSalvage = false,
+    },
+    SapphCooking = {
+        NonPerishableChance = 3,
+        PerishableChance = 3,
+        MagazineChance = 3,
+        MREChance = 3,
+        KitchenUtensilsChance = 3,
+        AlcoholChance = 3,
+        ZombieLootSpawn = 3,
     },
 }

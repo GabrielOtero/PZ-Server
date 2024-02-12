@@ -6,5 +6,7 @@ function SpawnRegions()
 		{ name = "Riverside, KY", file = "media/maps/Riverside, KY/spawnpoints.lua" },
 		{ name = "AZSpawn", file = "media/maps/AZSpawn/spawnpoints.lua" },
 		{ name = "Prison", file = "media/maps/Prison/spawnpoints.lua" },
+		{ name = "Blackwood", file = "media/maps/Blackwood/spawnpoints.lua" },
+		{ name = "Basements", file = "media/maps/Basements/spawnpoints.lua" },
 	}
 end
