@@ -60128,6 +60128,33 @@ items = {
 		obsolete = false,
 		removed = false,
 	},
+	{
+		registryID = 6630,
+		fulltype = "SapphCooking.Corn_CobEvolved",
+		modID = "sapphcooking",
+		existsAsVanilla = false,
+		isModded = true,
+		obsolete = false,
+		removed = false,
+	},
+	{
+		registryID = 6631,
+		fulltype = "SapphCooking.BottleofJuice",
+		modID = "sapphcooking",
+		existsAsVanilla = false,
+		isModded = true,
+		obsolete = false,
+		removed = false,
+	},
+	{
+		registryID = 6632,
+		fulltype = "SapphCooking.Corn_Cob",
+		modID = "sapphcooking",
+		existsAsVanilla = false,
+		isModded = true,
+		obsolete = false,
+		removed = false,
+	},
 }
 
 --[[ ---- OBJECTS ---- --]]
