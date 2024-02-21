@@ -694,6 +694,7 @@ SandboxVars = {
     TrueMusicJukebox = {
         jukeboxesAttractZombies = true,
         ignoreDistanceWhenPlaying = true,
+        enableLifestyleIntegrations = true,
         forceThreeDimensionalAudio = false,
         allowPortableJukeboxKeys = false,
         disablePowerRequirement = false,
